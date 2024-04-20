@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         resultTextView = findViewById<TextView>(R.id.classificationResult)
-        confidenceTextView = findViewById<TextView>(R.id.probabilityScores)
         imageView = findViewById<ImageView>(R.id.pictureImageView)
         takePictureButton = findViewById<Button>(R.id.takePictureButton)
         takePictureButton!!.setOnClickListener {

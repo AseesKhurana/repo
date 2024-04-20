@@ -56,7 +56,7 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation ("org.tensorflow:tensorflow-lite:2.16.1")
     implementation ("org.tensorflow:tensorflow-lite-task-vision-play-services:0.4.2")
-    implementation ("com.google.android.gms:play-services-tflite-gpu:16.1.0")
+    implementation ("com.google.android.gms:play-services-tflite-gpu:16.2.0")
     implementation ("org.tensorflow:tensorflow-lite-support:0.4.2")
     implementation ("org.tensorflow:tensorflow-lite-metadata:0.4.2")
 }
