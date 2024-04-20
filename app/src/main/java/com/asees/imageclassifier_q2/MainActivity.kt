@@ -55,6 +55,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
     // Declare native function for image preprocessing
     external fun preprocessImage(imgData: ByteArray)
 
@@ -113,11 +114,6 @@ class MainActivity : AppCompatActivity() {
             }
             val classes = arrayOf("Cat", "Dog", "Goat", "Eagle", "Cow", "Insect")
             resultTextView!!.text = classes[maxPos]
-            var s = ""
-            for (i in classes.indices) {
-                s += String.format("%s: %.1f%%\n", classes[i], confidences[i] * 100)
-            }
-            confidenceTextView!!.text = s
 
             // Releases model resources if no longer used.
             model.close()
@@ -125,6 +121,7 @@ class MainActivity : AppCompatActivity() {
             // TODO Handle the exception
         }
     }
+
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if (requestCode == 1 && resultCode == Activity.RESULT_OK) {
