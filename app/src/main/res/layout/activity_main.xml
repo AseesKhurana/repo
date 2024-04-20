@@ -29,9 +29,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/pictureImageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10sp"
-        android:text="Classified as:"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="93dp"
+        android:text="The Above image is of a:"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -39,32 +42,18 @@
         android:id="@+id/classificationResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/classificationLabel"
-        android:layout_centerHorizontal="true"
-        android:text=""
+        android:layout_below="@+id/classificationLabel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="67dp"
+        android:text="Hey this is demo text"
         android:textColor="#C30000"
         android:textSize="27sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/probabilityScoresLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/classificationResult"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30sp"
-        android:text="Probability Scores:"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/probabilityScores"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/probabilityScoresLabel"
-        android:layout_centerHorizontal="true"
-        android:text=""
-        android:textColor="#000"
-        android:textSize="22sp" />
 
 </RelativeLayout>
