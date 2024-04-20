@@ -50,7 +50,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="79dp"
         android:layout_marginBottom="67dp"
-        android:text="Hey this is demo text"
+        android:text=""
         android:textColor="#C30000"
         android:textSize="27sp"
         android:textStyle="bold" />
